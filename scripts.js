@@ -210,7 +210,7 @@ const App={
     init(){
         Transaction.all.forEach((transaction, index) => {
             DOM.addTransaction(transaction, index)
-            Storage.set(transaction.all)
+            
         })
 
         DOM.uptadeBalance()
